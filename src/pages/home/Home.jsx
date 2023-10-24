@@ -4,66 +4,66 @@ import "../../styles.scss";
 import CourseCard from "../../components/coursecard/CourseCard";
 import Footer from '../../components/footer/Footer';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import CarouselSlider from 'react-carousel-slider';
+// import CarouselSlider from 'react-carousel-slider';
 
 
 const Home = () => {
 
 
-    let data = {
-        "autoSliding": {
-            "items": [
-                {
-                    imgSrc: "../../../public/assets/u4.jpeg",
-                    des: "I have transformed my life thanks to their guidance! - Jane Doe",
+    // let data = {
+    //     "autoSliding": {
+    //         "items": [
+    //             {
+    //                 imgSrc: "../../../public/assets/u4.jpeg",
+    //                 des: "I have transformed my life thanks to their guidance! - Jane Doe",
 
-                },
-                {
-                    imgSrc: "../../../public/assets/u1.jpeg",
-                    des: "I have achieved great success with their support and mentorship. - Brinda",
+    //             },
+    //             {
+    //                 imgSrc: "../../../public/assets/u1.jpeg",
+    //                 des: "I have achieved great success with their support and mentorship. - Brinda",
 
-                },
-                {
-                    imgSrc: "../../../public/assets/u22.jpeg",
+    //             },
+    //             {
+    //                 imgSrc: "../../../public/assets/u22.jpeg",
 
-                    des: "Their programs have had a profound impact on my personal and professional life. - John Doe",
+    //                 des: "Their programs have had a profound impact on my personal and professional life. - John Doe",
 
-                },
-                {
-                    imgSrc: "../../../public/assets/u3.jpeg",
+    //             },
+    //             {
+    //                 imgSrc: "../../../public/assets/u3.jpeg",
 
-                    des: "I can't thank them enough for helping me reach my full potential. - Alice",
+    //                 des: "I can't thank them enough for helping me reach my full potential. - Alice",
 
-                },
-            ]
-        }
-    }
+    //             },
+    //         ]
+    //     }
+    // }
 
-    let manner = {
-        autoSliding: { interval: "3s" },
-        duration: "2s"
-    };
+    // let manner = {
+    //     autoSliding: { interval: "3s" },
+    //     duration: "2s"
+    // };
 
-    let buttonSetting = {
-        placeOn: "middle-inside",
-        hoverEvent: true,
-        style: {
-            left: {
-                height: "50px",
-                width: "50px",
-                color: "#929393",
-                background: "rgba(225, 228, 232, 0.8)",
-                borderRadius: "50%"
-            },
-            right: {
-                height: "50px",
-                width: "50px",
-                color: "#929393",
-                background: "rgba(225, 228, 232, 0.8)",
-                borderRadius: "50%"
-            }
-        }
-    };
+    // let buttonSetting = {
+    //     placeOn: "middle-inside",
+    //     hoverEvent: true,
+    //     style: {
+    //         left: {
+    //             height: "50px",
+    //             width: "50px",
+    //             color: "#929393",
+    //             background: "rgba(225, 228, 232, 0.8)",
+    //             borderRadius: "50%"
+    //         },
+    //         right: {
+    //             height: "50px",
+    //             width: "50px",
+    //             color: "#929393",
+    //             background: "rgba(225, 228, 232, 0.8)",
+    //             borderRadius: "50%"
+    //         }
+    //     }
+    // };
 
 
     const courses = [
@@ -166,11 +166,30 @@ const Home = () => {
                 <div className="testimonials-section">
                     <h2 style={{ fontFamily: 'Kanit, sans-serif' }}>Testimonials</h2>
 
-                    <CarouselSlider
+                    {/* <CarouselSlider
                         slideItems={data.autoSliding.items}
                         manner={manner}
                         buttonSetting={buttonSetting}
-                    />
+                    /> */}
+                    <div className="matrix">
+                        <div className="matrix-cell">
+                            <img src="../../../public/assets/u4.jpeg" alt="User" />
+                            <p style={{ fontWeight: '600' }}>I have transformed my life thanks to their guidance! <br /> - Jane Doe</p>
+                        </div>
+                        <div className="matrix-cell">
+                            <img src="../../../public/assets/u1.jpeg" alt="User" />
+                            <p style={{ fontWeight: '600' }}>I have achieved great success with their support and mentorship.  <br /> - Brinda</p>
+                        </div>
+                        <div className="matrix-cell">
+                            <img src="../../../public/assets/u22.jpeg" alt="User" />
+                            <p style={{ fontWeight: '600' }}>Their programs have had a profound impact on my personal and professional life.  <br /> - John Doe</p>
+                        </div>
+                        <div className="matrix-cell">
+                            <img src="../../../public/assets/u3.jpeg" alt="User" />
+                            <p style={{ fontWeight: '600' }}>I cant thank them enough for helping me reach my full potential.  <br /> - Alice</p>
+                        </div>
+                    </div>
+
                 </div>
 
 
