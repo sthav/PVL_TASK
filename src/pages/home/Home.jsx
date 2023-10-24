@@ -68,22 +68,22 @@ const Home = () => {
 
     const courses = [
         {
-            image: '../../../public/assets/a2.jpeg',
+            image: '../assets/a2.jpeg',
             title: ' Unlock Your Full Potential',
             description: 'Discover the secrets to unlocking your full potential and achieving your dreams with the guidance of Carol Solvay.',
         },
         {
-            image: '../../../public/assets/a4.jpeg',
+            image: '../assets/a4.jpeg',
             title: 'Positive Mindset Mastery',
             description: 'Learn how to master a positive mindset and overcome lifes challenges with Carol Solvays expert mentorship.',
         },
         {
-            image: '../../../public/assets/a3.jpeg',
+            image: '../assets/a3.jpeg',
             title: 'Personal Growth and Success',
             description: 'Join our course on personal growth and success, where Carol Solvay will guide you towards a more fulfilling life.',
         },
         {
-            image: '../../../public/assets/a5.jpeg',
+            image: '../assets/a5.jpeg',
             title: 'Purposeful Living',
             description: 'Explore the path to purposeful living and find your true calling with the mentorship of Carol Solvay.',
         },
@@ -115,19 +115,19 @@ const Home = () => {
 
                 <div className="widget-section">
                     <div className="wid">
-                        <img src="../../../public/assets/t1.png" alt="" />
+                        <img src="../assets/t1.png" alt="" />
                         <p>Mentors have over two decades of industry experience </p>
                     </div>
                     <div className="wid">
-                        <img src="../../../public/assets/t2.png" alt="" />
+                        <img src="../assets/t2.png" alt="" />
                         <p>Offline classes & Hands on Experience</p>
                     </div>
                     <div className="wid">
-                        <img src="../../../public/assets/t3.png" alt="" />
+                        <img src="../assets/t3.png" alt="" />
                         <p>Supportive Community and Networking</p>
                     </div>
                     <div className="wid">
-                        <img src="../../../public/assets/t4.png" alt="" />
+                        <img src="../assets/t4.png" alt="" />
                         <p>Over 2000 students taught by mentors</p>
                     </div>
                 </div>
@@ -173,19 +173,19 @@ const Home = () => {
                     /> */}
                     <div className="matrix">
                         <div className="matrix-cell">
-                            <img src="../../../public/assets/u4.jpeg" alt="User" />
+                            <img src="../assets/u4.jpeg" alt="User" />
                             <p style={{ fontWeight: '600' }}>I have transformed my life thanks to their guidance! <br /> - Jane Doe</p>
                         </div>
                         <div className="matrix-cell">
-                            <img src="../../../public/assets/u1.jpeg" alt="User" />
+                            <img src="../assets/u1.jpeg" alt="User" />
                             <p style={{ fontWeight: '600' }}>I have achieved great success with their support and mentorship.  <br /> - Brinda</p>
                         </div>
                         <div className="matrix-cell">
-                            <img src="../../../public/assets/u22.jpeg" alt="User" />
+                            <img src="../assets/u22.jpeg" alt="User" />
                             <p style={{ fontWeight: '600' }}>Their programs have had a profound impact on my personal and professional life.  <br /> - John Doe</p>
                         </div>
                         <div className="matrix-cell">
-                            <img src="../../../public/assets/u3.jpeg" alt="User" />
+                            <img src="../assets/u3.jpeg" alt="User" />
                             <p style={{ fontWeight: '600' }}>I cant thank them enough for helping me reach my full potential.  <br /> - Alice</p>
                         </div>
                     </div>

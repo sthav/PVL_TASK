@@ -22,7 +22,7 @@ const About = () => {
                     <div className='mentor'>
                         <h1 style={{ fontFamily: 'Kanit, sans-serif' }}>Meet Our Mentor</h1>
                         <div className="mentor-container">
-                            <img src="../../../public/assets/carol.jpeg" alt="" />
+                            <img src="../assets/carol.jpeg" alt="" />
                             <p style={{ fontFamily: 'Kanit, sans-serif', fontWeight: '300' }}>
                                 <span>Carol Solvay</span> Carol Solvay is your dedicated Mindset Mastery Mentor, passionate
                                 about helping individuals unlock their highest potential. With years of experience and a deep
