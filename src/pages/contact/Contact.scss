@@ -1,0 +1,121 @@
+.main-container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+
+
+    .content-contact {
+        text-align: center;
+
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .contact-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .left-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex: 1;
+                max-width: 48%;
+                padding-right: 20px;
+
+            }
+
+            .right-content {
+                flex: 1;
+                max-width: 48%;
+                padding-left: 20px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                margin: 10px 0;
+            }
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .content-contact {
+        .contact-content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .left-content,
+            .right-content {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .content-contact {
+        .contact-content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .left-content,
+            .right-content {
+                max-width: 100%;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            button {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .footer {
+        display: none;
+    }
+}
