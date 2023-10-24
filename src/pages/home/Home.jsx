@@ -3,7 +3,7 @@ import './Home.scss';
 import "../../styles.scss";
 import CourseCard from "../../components/coursecard/CourseCard";
 import Footer from '../../components/footer/Footer';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import CarouselSlider from 'react-carousel-slider';
 
 
