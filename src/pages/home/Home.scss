@@ -196,6 +196,7 @@
         justify-content: center;
         align-items: center;
         height: 36rem;
+        gap: 80px;
 
         // img {
         //     width: 20px;
@@ -206,6 +207,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
+           
 
             .matrix-cell {
                 display: flex;
